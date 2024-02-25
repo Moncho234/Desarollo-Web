@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS BORDER IMAGES</title>
+<head/>
+<style>
+div.a {
+  border: 10px solid transparent;
+  border-image: url(https://wikiclipart.com/wp-content/uploads/2016/11/Free-borders-free-borders-clipart.jpg) 30 round;
+}
+div.b {
+  border-image-source: url(https://i.pinimg.com/originals/54/45/4e/54454e95a14c2fe1552f6e95c077c2ea.png) 30 round;
+  border-image-repeat: stretch;  
+  border-image-slice: 30;
+}
+</style>
+<body>
+
+  <div class="a">Este es un elemento div. Tiene algo de texto.</div>
+<br>
+  <div class="b">Este es un elemento div. Tiene algo de texto.</div>
+
+</body>
+</html>
+
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS BACKGROUNDS</title>
+<head/>
+<style>
+div.a {
+  background-image: url('https://pluspng.com/img-png/tree-png-tree-png-1903-2304-1903.png'), url('https://www.xtrafondos.com/wallpapers/colores-del-arcoiris-6186.jpg');
+}
+div.b {
+  background-image: url('https://www.xtrafondos.com/wallpapers/colores-del-arcoiris-6186.jpg');
+  background-size: 100px 80px;
+  background-repeat: no-repeat;  
+}
+div.c {
+  background-image: url('https://www.xtrafondos.com/wallpapers/colores-del-arcoiris-6186.jpg'), url('https://pluspng.com/img-png/tree-png-tree-png-1903-2304-1903.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: left top, right top;
+}
+#example1 {
+  padding: 20px;
+  background-image: url('https://www.xtrafondos.com/wallpapers/colores-del-arcoiris-6186.jpg');
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+#example2 {
+  border: 10px dotted red;
+  padding: 20px;
+  background-color: yellow;
+  background-clip: content-box;
+}
+</style>
+<body>
+
+<div class="a">
+  <h1>Este es un titulo</h1>
+  <p>Este es un párrafo</p>
+  <p>Este es un párrafo</p>
+</div>
+<br>
+<div class="b">
+  <h1>Este es un titulo</h1>
+  <p>Este es un párrafo</p>
+  <p>Este es un párrafo</p>
+</div>
+<br>
+<div class="c">
+  <h1>Este es un titulo</h1>
+  <p>Este es un párrafo</p>
+  <p>Este es un párrafo</p>
+</div>
+<br>
+<div id="example1">
+  <h1>Este es un titulo</h1>
+  <p>Este es un párrafo</p>
+  <p>Este es un párrafo</p>
+</div>
+<br>
+<div id="example2">
+  <h1>Este es un titulo</h1>
+  <p>Este es un párrafo</p>
+  <p>Este es un párrafo</p>
+</div>
+
+</body>
+</html>
+
+

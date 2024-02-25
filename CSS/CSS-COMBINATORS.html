@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS COMBINATORS</title>
+<head/>
+<style>
+div p {
+  background-color: red;
+}
+div > p {
+  color: blue;
+}
+div + p {
+  background-color: green;
+}
+div ~ p {
+  color: yellow;
+}
+</style>
+<body>
+
+<div>
+  <p>Este es un párrafo.</p>
+  <p>Este es un párrafo.</p>
+</div>
+<p>Este es un párrafo.</p>
+<p>Este es un párrafo.</p>
+
+</body>
+</html>
+
+

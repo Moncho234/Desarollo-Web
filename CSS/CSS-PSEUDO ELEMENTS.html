@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS PSEUDO-ELEMENTS</title>
+<head/>
+<style>
+.intro::first-letter
+ {
+  background-color: red;
+}
+.intro::first-line {
+  color: green;
+}
+p::before {
+  content: url('https://image.emojipng.com/904/14031904.jpg');
+}
+p::after {
+  content: url('https://image.emojipng.com/904/14031904.jpg');
+}
+</style>
+<body>
+
+<p class="intro">
+En mi juventud y mis años más vulnerables
+mi padre me dio algunos consejos que
+están en mi mente desde siempre.
+'Cuando sientas que estas criticando a alguien,' me dijo,
+'solo recuerda que entre toda la gente de este mundo
+nadie tiene las ventajas que tu tienes.'
+</p>
+<p>Este es un párrafo.</p>
+<p>Este es un párrafo.</p>
+
+</body>
+</html>
+
+

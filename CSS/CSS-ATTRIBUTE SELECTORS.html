@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS ATTRIBUTE SELECTORS</title>
+<head/>
+<style>
+a[target] {
+  background-color: red;
+}
+a[target="_blank"] {
+  background-color: blue;
+}
+img[title~="blue"] {
+  border: 5px solid green;
+}
+img[title^="blue"] {
+  border: 5px solid yellow;
+}
+img[title$="flower"] {
+  border: 5px solid pink;
+}
+img[title*="purple"] {
+  border: 10px solid purple;
+}
+</style>
+<body>
+
+  <a href="https://w3schools.com">w3schools.com</a>
+  <a href="http://disney.com" target="_blank">Disney.com</a>
+  <a href="http://wikipedia.org" target="_top">wikipedia.org</a>
+  <img src="https://i0.wp.com/www.jardineriaon.com/wp-content/uploads/2016/09/Linum_perenne_lewisii_Appar.jpg" title="blue flower">
+  <img src="https://www.jardineriaon.com/wp-content/uploads/2016/05/digitalis.jpg" title="purple flowers">
+  <img src="https://3.bp.blogspot.com/-LsK7PH1eLX0/UvUL7TZRsbI/AAAAAAAA8Is/LHAX_Dhh1oU/s00/Flores-azules-1920x1080.jpg" title="two blue flowers">  
+
+</body>
+</html>
+
+

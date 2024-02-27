@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS TEXT EFFECTS</title>
+<head/>
+<style>
+p.a {
+  white-space: nowrap; 
+  width: 200px; 
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+p.b {
+  width: 150px; 
+  border: 1px solid #000000;
+  word-wrap: break-word;
+}
+p.c {
+  width: 150px; 
+  border: 1px solid #000000;
+  word-break: break-all;
+}
+</style>
+<body>
+  <p class="a">
+    Este párrafo contiene una palabra muy larga: supercalifragilisticexpialidocious.
+  </p>
+  <p class="b">
+    Este párrafo contiene una palabra muy larga: supercalifragilisticexpialidocious.
+  </p>
+  <p class="c">
+    Este párrafo contiene una palabra muy larga: supercalifragilisticexpialidocious.
+  </p>
+</body>
+</html>
+
+

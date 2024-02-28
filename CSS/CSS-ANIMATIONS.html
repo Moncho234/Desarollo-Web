@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS ANIMATIONS</title>
+<head/>
+<style>
+#div1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example1;
+  animation-duration: 2s;
+}
+@keyframes example1 {
+  from {background-color: red;}
+  to {background-color: blue;}
+}
+
+#div2 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: example2;
+  animation-duration: 4s;
+}
+@keyframes example2 {
+  0%   {left:0px; top:0px;}
+  25%  {left:0px; top:200px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:200px; top:0px;}
+  100% {left:0px; top:0px;}
+}
+
+#div3 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: example3;
+  animation-duration: 2s;
+  animation-delay: 1s;
+}
+@keyframes example3 {
+  0%   {background-color: red; left:0px;}
+  50%  {background-color: yellow; left:200px;}
+  100% {background-color: red; left:0px;}
+}
+
+#div4 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: example4;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes example4 {
+  0%   {background-color: red; left:0px;}
+  50%  {background-color: yellow; left:200px;}
+  100% {background-color: red; left:0px;}
+}
+
+#div5 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: example5;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;   
+}
+@keyframes example5 {
+  0%   {background-color: red; left:0px; top:0px;}
+  25%  {background-color: blue; left:0px; top:200px;}
+  50%  {background-color: green; left:200px; top:200px;}
+  75%  {background-color: yellow; left:200px; top:0px;}
+  100% {background-color: red; left:0px; top:0px;}
+}
+
+#div6 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: example6;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes example6 {
+  0%   {background-color: red; left:0px;}
+  50%  {background-color: yellow; left:200px;}
+  100% {background-color: red; left:0px;}
+}
+</style>
+
+<body>
+  <div id="div1">Este es un div</div>
+<br>
+  <div id="div2">Este es un div</div>
+<br>
+  <div id="div3">Este es un div</div>
+<br>
+  <div id="div4">Este es un div</div>
+<br>
+  <div id="div5">Este es un div</div>
+<br>
+  <div id="div6">Este es un div</div>
+</body>
+</html>
+
+

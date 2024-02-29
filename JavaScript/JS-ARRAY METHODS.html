@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JS ARRAY METHODS</title>
+<head/>
+<body>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+
+<script>
+const fruits1 = ["Banana", "Orange", "Apple"];
+fruits1.pop();
+document.getElementById("demo1").innerHTML = fruits1;
+
+const fruits2 = ["Banana", "Orange", "Apple"];
+fruits2.push("Kiwi");
+document.getElementById("demo2").innerHTML = fruits2;
+
+const fruits3 = ["Banana", "Orange", "Apple", "Kiwi"];
+fruits3.splice(1, 2);
+document.getElementById("demo3").innerHTML = fruits3;
+</script>
+
+</body>
+</html>
+
+

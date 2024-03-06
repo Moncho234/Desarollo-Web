@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JS HTML DOM</title>
+</head>
+<body>
+
+<p id="demo1"></p>
+
+<h1 id="demo"></h1>
+
+<p class="test"></p>
+<p class="test"></p>
+
+<img id="image" src="smiley.gif">
+
+<input type="text" id="myText" value="Hola">
+
+<p id="demo2"></p>
+
+<button id="demo3">Clickeame</button>
+
+<script>
+document.getElementById("demo1").innerHTML = "Hola";
+
+document.getElementsByTagName("h1")[0].innerHTML = "Hola";
+
+document.getElementsByClassName("test")[0].innerHTML = "Hola";
+
+document.getElementById("image").src = "pic_mountain.jpg";
+
+document.getElementById("myText").value = "¡Que tenga un buen dia!";
+
+document.getElementById("demo1").style.color = "red";
+
+document.getElementById("demo1").style.fontSize = "40px";
+
+document.getElementById("demo2").style.display = "none";
+
+document.getElementById("demo3").addEventListener("click", myFunction);
+</script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JS BREAK LOOPS</title>
+</head>
+<body>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<script>
+for (i = 0; i < 10; i++) {
+  console.log(i);
+  if (i == 5) {
+    break;
+  }
+}
+document.getElementById("demo1").innerHTML = i;
+
+for (x = 0; x < 10; x++) {
+  if (x == 5) {
+    continue;
+  }
+  console.log(x);
+}
+document.getElementById("demo2").innerHTML = x;
+</script>
+
+</body>
+</html>
+
+
